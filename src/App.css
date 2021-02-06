@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.container{
+  display: grid;
+  grid-template-rows: 15vh 85vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  font-family: 'Lemonada', cursive;
+  color: #02b10a;
+  background-color: rgb(249, 255, 162);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: start;
+  padding-left: 20px;
+}
+.header button{
+  height: 30px;
+  margin: 28px 20px 20px 20px ;
+  cursor: pointer;
+  background-color: rgb(175, 250, 152);
+  border: 1px solid rgb(140, 248, 107);
+  border-radius: 5px;
+}
+/* .header button:hover{
+  opacity: 0.7;
+  transition: 0.3s;
+  box-shadow: -2px 2px 5px black;
+} */
+.main{
+  background: rgb(175, 250, 152);
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.descriptions{
+  background-color: rgb(225, 251, 217);
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 0 0 15px;
+  font-size: .5em;
+  font-family: 'Fira Sans', sans-serif;
+  border: none;
+  border-radius: 5px;
+  color: rgb(7, 112, 3);
+}
+.sidebar {
+  display: flex;
+  flex-direction:  column;
+  justify-content: start;
+}
+
+.buttons{
   color: white;
+  font-size: 10px;
+  margin: 5px 5px 0 5px;
+  width: 90%;
+  height: 20px;
+  background: linear-gradient(#02b10a, #026807);
+  border: none;
+  border-radius: 3px;
+  text-align: left;
+  cursor: pointer;
+}
+.buttons:hover{
+  opacity: 0.7;
+  transition: 0.3s;
+  box-shadow: -2px 2px 5px black;
+  width: 93%;
 }
 
-.App-link {
-  color: #61dafb;
+.buttonAndTextarea{
+  display: grid;
+  grid-template-rows: 10% 90%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonCopy{
+  background-color: rgb(101, 175, 83);
+  font-size: 1.5em;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.buttonCopy:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgb(7, 112, 3);
 }
