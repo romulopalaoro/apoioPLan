@@ -11,14 +11,17 @@
   align-items: center;
   justify-content: start;
   padding-left: 20px;
+  font-size: 1.5em;
 }
 .header button{
-  height: 30px;
+  height: 40px;
+  width: 220px;
   margin: 28px 20px 20px 20px ;
   cursor: pointer;
   background-color: rgb(175, 250, 152);
   border: 1px solid rgb(140, 248, 107);
   border-radius: 5px;
+  font-size: 1em;
 }
 /* .header button:hover{
   opacity: 0.7;
@@ -35,7 +38,7 @@
   display: flex;
   align-items: flex-start;
   padding: 10px 0 0 15px;
-  font-size: .5em;
+  font-size: 1em;
   font-family: 'Fira Sans', sans-serif;
   border: none;
   border-radius: 5px;
@@ -49,11 +52,11 @@
 
 .buttons{
   color: white;
-  font-size: 10px;
-  margin: 5px 5px 0 5px;
-  width: 90%;
-  height: 20px;
-  background: linear-gradient(#02b10a, #026807);
+  font-size: 1.2em;
+  margin: 5px 5px 5px 5px;
+  width: 95%;
+  height: 30px;
+  background: linear-gradient( #026807, #02b10a);
   border: none;
   border-radius: 3px;
   text-align: left;
@@ -63,7 +66,7 @@
   opacity: 0.7;
   transition: 0.3s;
   box-shadow: -2px 2px 5px black;
-  width: 93%;
+  width: 90%;
 }
 
 .buttonAndTextarea{
@@ -71,8 +74,9 @@
   grid-template-rows: 10% 90%;
 }
 .buttonCopy{
-  background-color: rgb(101, 175, 83);
-  font-size: 1.5em;
+  margin: 5px 10px 10px 0;
+  background: linear-gradient( #026807, #6bf60e);
+  font-size: 2em;
   color: white;
   border: none;
   border-radius: 5px;
@@ -81,5 +85,5 @@
   cursor: pointer;
   opacity: 0.7;
   transition: 0.3s;
-  box-shadow: 0 0 10px rgb(7, 112, 3);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }

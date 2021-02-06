@@ -4,7 +4,7 @@ export default function index({db}) {
 
   return (
     <div className="header">
-      <h2>Apoio ao planejamento</h2>
+      <h1>Apoio ao planejamento</h1>
       <button disabled="true">OM Vermelha</button>
       <button disabled="true">Equipamentos</button>
     </div>
