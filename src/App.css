@@ -1,7 +1,8 @@
 .container{
   display: grid;
-  grid-template-rows: 15vh 85vh;
-}
+  grid-template-rows: 1.5fr 7fr;
+  background:  rgb(249, 255, 162);
+} 
 .header{
   font-family: 'Lemonada', cursive;
   color: #02b10a;
@@ -9,7 +10,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   padding-left: 20px;
   font-size: 1.5em;
 }
@@ -29,9 +30,11 @@
   box-shadow: -2px 2px 5px black;
 } */
 .main{
+  margin: 0 4% 0 4%;
+  border-radius: 8px;
   background: rgb(175, 250, 152);
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 20% 80%;
 }
 .descriptions{
   background-color: rgb(225, 251, 217);
@@ -43,17 +46,20 @@
   border: none;
   border-radius: 5px;
   color: rgb(7, 112, 3);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  resize:none;
 }
 .sidebar {
   display: flex;
   flex-direction:  column;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .buttons{
   color: white;
   font-size: 1.2em;
-  margin: 5px 5px 5px 5px;
+  margin: 10px 5px 5px 5px;
   width: 95%;
   height: 30px;
   background: linear-gradient( #026807, #02b10a);
@@ -64,12 +70,13 @@
 }
 .buttons:hover{
   opacity: 0.7;
-  transition: 0.3s;
+  transition: 0.2s;
   box-shadow: -2px 2px 5px black;
-  width: 90%;
+  width: 95%;
 }
 
 .buttonAndTextarea{
+  margin-top: 3px;
   display: grid;
   grid-template-rows: 10% 90%;
 }

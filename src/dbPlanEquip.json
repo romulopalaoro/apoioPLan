@@ -1,0 +1,13 @@
+{
+	"operations":
+	[
+		{
+			"textobutton": "TORPEDO",
+			"textoOperation": "ME: MONTAR TORPEDO"
+		},
+		{
+			"textobutton": "REDUTOR",
+			"textoOperation": "MONTAR REDUTOR"
+		}
+	]
+}
